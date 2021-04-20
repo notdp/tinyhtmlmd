@@ -1,0 +1,27 @@
+{
+  "name": "tinyhtmlmd",
+  "version": "1.0.51",
+  "description": "This is a html2markdown converter with a specific purpose.",
+  "exports": {
+    "require": "./src/index.cjs",
+    "import": "./src/index.mjs"
+  },
+  "main": "./src/index.mjs",
+  "browser": "./src/index.mjs",
+  "dependencies": {
+    "turndown": "^7.0.0"
+  },
+  "bin": {
+    "rt": "bin/rt.mjs"
+  },
+  "devDependencies": {
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "notdp",
+  "license": "MIT"
+}
