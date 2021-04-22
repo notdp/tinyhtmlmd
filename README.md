@@ -22,7 +22,7 @@ I have done the following:
 install first:
 
 ```shell
-   npm install tinyhtmlmd -g
+npm install tinyhtmlmd -g
 ```
 
 after install:
@@ -36,7 +36,7 @@ run `rt` command,the file will be converted to a pure md file.
 1. install
 
 ```shell
-   npm install tinyhtmlmd --save
+npm install tinyhtmlmd --save
 ```
 
 2. import
